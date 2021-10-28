@@ -1,0 +1,15 @@
+:root {
+    --site-purple: #552988;
+    --site-green: #6db43e;
+    --site-yellow: #ffc425;
+    --site-red: #E61e3b;
+    --site-black: #0A090B;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', sans-serif;
+  }
