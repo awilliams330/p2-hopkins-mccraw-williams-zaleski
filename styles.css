@@ -10,8 +10,19 @@
     font-family: 'Roboto', sans-serif;
   }
 
-  h1, h2, h3, h4, h5, h6 {
+  h1, h2 {
+    font-family: 'boogaloo', sans-serif;
+    color: var(--site-red);
+  }
+
+  h3, h4, h5, h6 {
     font-family: 'Roboto', sans-serif;
+    color: var(--site-purple)
+  }
+
+  p {
+    font-size: 1.2rem;
+    color: var(--site-black)
   }
 
   .button {
