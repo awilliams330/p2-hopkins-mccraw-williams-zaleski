@@ -13,3 +13,34 @@
   h1, h2, h3, h4, h5, h6 {
     font-family: 'Roboto', sans-serif;
   }
+
+  .button {
+    font-family: 'Boogaloo';
+    font-size: 2rem;
+    color: var(--site-black);
+    background-color: var(--site-green);
+    padding: 4px 51px;
+    border: none;
+    border-radius: 13px;
+}
+
+.button:hover {
+  text-decoration: underline;
+  background-color: var(--site-yellow)
+}
+
+.button:active {
+  color: white;
+  background-color: var(--site-green);
+}
+
+.links {
+  font-family: 'Roboto';
+  color: #6db43e;
+  text-decoration: none;
+}
+
+.links:hover {
+  text-decoration: underline;
+  color: var(--site-purple);
+}
