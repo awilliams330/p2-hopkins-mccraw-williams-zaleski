@@ -150,7 +150,62 @@ color: var(--site-green);
 
 /********** MOBILE NAV CSS ENDS ***************/
 
+/********** ACCORDION STYLING STARTS ***************/
+#hide {
+  display: none;
+}
 
+.show {
+  display: block;
+  transition-delay: 1s;
+}
+
+.heading {
+  cursor: pointer;
+}
+
+.content {
+  overflow: hidden;
+  padding: 20px;
+  width: 70%;
+  border-radius: 13px;
+  margin: -42px auto 7px auto;
+  max-width: 700px;
+  height: 200px;
+  border-bottom: 6px solid #c0c0c05c;
+  background: #ffffff;
+  box-shadow: 7px -1px 14px 0px #00000026;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.heading {
+  font-size: 2rem;
+  cursor: pointer;
+  background: var(--site-yellow);
+  border-bottom: 4px solid #dbab29;
+  border-right: 4px solid #ffe1a3;
+  border-left: 4px solid #5529882b;
+  margin-bottom: 3px;
+  box-shadow: 0px 4px 6px #0000004f;
+  padding: 30px;
+  margin: 22px auto;
+  border-radius: 12px;
+  width: 70%;
+  max-width: 700px;
+  text-align: center;
+}
+
+.heading:after {
+  content:"+";
+  float: right;
+}
+
+.active:after {
+  content:"-";
+  float: right;
+}
+/********** ACCORDION STYLING ENDS ***************/
 
 
 /********** BUTTON STYLING STARTS ***************/
