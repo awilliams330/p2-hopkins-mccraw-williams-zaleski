@@ -63,12 +63,15 @@ font-weight: bold;
 color: var(--site-green);
 }
 
-.hamburger-ul { 
+.hamburger-ul {
   text-align: center;
   height: 0;
   margin-bottom: 30px;
   overflow: hidden;
   transition-duration: 0.6s;
+  position: absolute;
+  width: 100%;
+  background: var(--site-purple);
 }
 
 .ham-li {
@@ -116,7 +119,7 @@ color: var(--site-green);
 
 .change {
   height: 300px;
-  padding: 27px;
+  padding: 27px 0;
   transition-duration: 0.7s;
 }
 
