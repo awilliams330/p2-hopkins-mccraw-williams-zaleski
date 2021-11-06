@@ -1,5 +1,5 @@
 
-var heading = document.getElementsByClassName("heading")
+var heading = document.getElementsByClassName("accheading")
 //console.log(heading)
 for (i = 0; i < heading.length; i++) {
     heading[i].addEventListener("click", function() {
@@ -7,8 +7,8 @@ for (i = 0; i < heading.length; i++) {
     let content = this.nextElementSibling;
     if (content.style.display === "block") {
         content.style.display = "none";
-        this.style.backgroundColor = "#ffc425"
-        this.style.color = "#552988"
+        this.style.backgroundColor = "#552988"
+        this.style.color = "white"
         } else {
         content.style.display = "block"
         this.style.backgroundColor = "#552988"
