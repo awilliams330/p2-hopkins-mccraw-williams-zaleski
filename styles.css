@@ -203,6 +203,21 @@ color: var(--site-green);
   color: var(--site-purple);
 }
 
+/************HOME PAGE STYLING STARTS*************/
+
+img.home-header {
+  width: 100%;
+}
+
+.home {
+  background-color: rgba(107, 85, 137, 0.75);
+}
+
+.home-p {
+  text-align: center;
+  color: white;
+}
+
 /************ABOUT PAGE STYLING STARTS*************/
 
 img.about-header {
