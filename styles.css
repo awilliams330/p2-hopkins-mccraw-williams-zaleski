@@ -290,6 +290,7 @@ p {
 
 @media (min-width: 450px) {
 
+  /*about page*/
   h1.about-h1 {
     font-size: 2rem;
   }
