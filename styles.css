@@ -216,6 +216,19 @@ img.home-header {
 .home-p {
   text-align: center;
   color: white;
+  font-size: 1.5rem;
+}
+
+.icon-section {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 3%;
+}
+
+.home-content {
+  padding: 7%;
+  border-top-style: solid;
+  border-top-color: white;
 }
 
 /************ABOUT PAGE STYLING STARTS*************/
