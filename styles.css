@@ -45,7 +45,8 @@ article, aside, details, figcaption, figure, footer, header, main, nav, section,
 
   p {
     font-size: 1.2rem;
-    color: var(--site-black)
+    color: var(--site-black);
+    margin: 15px 0px;
   }
 
   a {
@@ -251,14 +252,26 @@ img.about-header {
 
 h1.about-h1 {
   margin: 20px auto;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   text-align: center;
 }
 
-p {
-  font-size: 1.2rem;
-  color: var(--site-black);
-  margin: 15px 0px;
+h2.about-h2 {
+  color: var(--site-purple);
+  font-family: 'Roboto Condensed';
+  font-size: 1.1rem;
+}
+
+.story-icon {
+  width: 30%;
+  max-width: 96px;
+  display: block;
+  padding: 0 auto 72px auto;
+  margin: 0 auto 12px auto;
+}
+
+.p-content {
+  color: var(--site-purple);
 }
 
  /*ACCORDION STYLING*/
@@ -282,8 +295,8 @@ p {
 
 .content {
   overflow: hidden;
-  padding: 20px;
-  width: 70%;
+  padding: 32px;
+  width: 74%;
   border-radius: 0 0 13px 13px;
   margin: 0 auto;
   max-width: 700px;
@@ -305,18 +318,18 @@ p {
   padding: 12px 34px;
   margin: 22px auto 0;
   border-radius: 12px;
-  width: 70%;
-  max-width: 700px;
+  width: 78%;
+  max-width: 750px;
   text-align: center;
 }
 
 .accheading:after {
-  content:"+";
+  content:"▶";
   float: right;
 }
 
 .active:after {
-  content:"-";
+  content:"▼";
   float: right;
 }
 
@@ -414,6 +427,10 @@ p {
 
   .bold {
     font-weight: bold;
+  }
+
+  .story-icon {
+    width: 17%;
   }
 
 /********** CONTACT DESKTOP STYLING BEGINS ***************/
