@@ -344,6 +344,41 @@ h2.about-h2 {
     font-size: 2rem;
   }
 
+  /*contact page */
+  .contact-header {
+    width: 100%;
+  }
+
+  input, select, textarea {
+    border: 1px solid #1670BE;
+    box-shadow: 0 0 3px #1670BE;
+    outline-offset: 0px;
+    outline: none;
+  }
+
+  h1, h2 {
+    text-align: center;
+  }
+
+  .contact-text {
+    padding: 0 3%;
+    text-align: center;
+  }
+
+  form {
+    padding: 0 4%;
+  }
+
+  input {
+    font-family: 'Roboto Condensed';
+    width: 60%;
+  }
+
+  .submit {
+    padding: 2%;
+    width: 125px;
+  }
+
 }
 
 
@@ -403,6 +438,20 @@ h2.about-h2 {
     color: var(--site-green);
   }
 
+  /* contact page */
+
+  h2 {
+    text-align: left;
+  }
+
+  .contact-text {
+    padding: 0 3%;
+    text-align: left;
+  }
+
+}
+
+
   /********** ABOUT DESKTOP STYLING BEGINS ***************/
 
   .about-header {
@@ -432,22 +481,3 @@ h2.about-h2 {
   .story-icon {
     width: 17%;
   }
-
-/********** CONTACT DESKTOP STYLING BEGINS ***************/
-
-  body {
-    margin: 0 auto;
-  }
-
-  .contact-header {
-    max-width: 100%;
-  }
-
-  input, select, textarea {
-    border: 1px solid #1670BE;
-    box-shadow: 0 0 3px #1670BE;
-    outline-offset: 0px;
-    outline: none;
-  }
-
-}
