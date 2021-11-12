@@ -344,11 +344,6 @@ h2.about-h2 {
     font-size: 2rem;
   }
 
-  /*contact page */
-  .contact-header {
-    width: 100%;
-  }
-
   input, select, textarea {
     border: 1px solid #1670BE;
     box-shadow: 0 0 3px #1670BE;
@@ -480,6 +475,10 @@ h2.about-h2 {
 
   .story-icon {
     width: 17%;
+  }
+
+  .contact-header {
+    width: 100%;
   }
 
   section#quote {
