@@ -9,7 +9,7 @@ var textEl = document.getElementById('render')
 
 formEl.onsubmit = function(e) {
     e.preventDefault()
-    fetch('http://api.quotable.io/random')
+    fetch('https://api.quotable.io/random')
     // console.log( fetch('https://api.quotable.io/random'))
         .then(response => response.json())
         .then(data => {
