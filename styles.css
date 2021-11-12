@@ -481,3 +481,14 @@ h2.about-h2 {
   .story-icon {
     width: 17%;
   }
+
+  section#quote {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: rgba(85, 41, 136, .5);
+}
+
+form.quote {
+  padding: 15px;
+}
