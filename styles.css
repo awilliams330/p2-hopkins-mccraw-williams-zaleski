@@ -344,12 +344,6 @@ h2.about-h2 {
     font-size: 2rem;
   }
 
-  input, select, textarea {
-    border: 1px solid #1670BE;
-    box-shadow: 0 0 3px #1670BE;
-    outline-offset: 0px;
-    outline: none;
-  }
 
   h1, h2 {
     text-align: center;
@@ -490,4 +484,11 @@ h2.about-h2 {
 
 form.quote {
   padding: 15px;
+}
+
+input, select, textarea {
+  border: 1px solid #1670BE;
+  box-shadow: 0 0 3px #1670BE;
+  outline-offset: 0px;
+  outline: none;
 }
