@@ -450,7 +450,7 @@ h2.about-h2 {
   h1.about-h1 {
     text-align: center;
     margin: 20px;
-    font-size: 2.4rem;
+    font-size: 2.2rem;
   }
 
   .about-info {
@@ -491,6 +491,10 @@ input, select, textarea {
   box-shadow: 0 0 3px #1670BE;
   outline-offset: 0px;
   outline: none;
+}
+
+.accordion-container {
+  margin: auto 10px;
 }
 
  /********** HELP US DESKTOP STYLING ***************/
