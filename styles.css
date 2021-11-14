@@ -541,3 +541,7 @@ h2.about-h2 {
 .flipCard {
   transform: rotateY(180deg);
 }
+
+.callout {
+  width: 100%;
+}
