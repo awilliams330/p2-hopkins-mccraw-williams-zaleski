@@ -481,3 +481,63 @@ h2.about-h2 {
   .story-icon {
     width: 17%;
   }
+
+
+  /********** HELP US DESKTOP STYLING ***************/
+
+.help-title {
+  text-align: center;
+  margin: 20px;
+  font-size: 2.4rem;
+}
+
+.help-head {
+  margin: 36px auto;
+  width: 85%;
+  max-width: 1000px;
+}
+
+.image-grid {
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  background: none;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: all .08s ease;
+}
+
+.front {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  background: yellow;
+  color: var(--site-black);
+  text-align: center;
+}
+
+.back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  background: purple;
+  color: white;
+  text-align: center;
+  transform: rotateY(180deg);
+}
+
+.flipCard {
+  transform: rotateY(180deg);
+}
