@@ -546,10 +546,14 @@ input, select, textarea {
   width: 100%;
   height: 100%;
   backface-visibility: hidden;
-  background: purple;
+  background: var(--site-green);
   color: white;
   text-align: center;
   transform: rotateY(180deg);
+}
+
+.back a {
+  padding: 1%;
 }
 
 .flipCard {
@@ -558,5 +562,6 @@ input, select, textarea {
 
 .callout {
   width: 100%;
+  max-width: 1300px;
 }
 
