@@ -349,13 +349,9 @@ h2.about-h2 {
 }
 
 .image-grid {
-  position: absolute;
-  width: 200px;
-  height: 170px;
+  height: 75px;
   background: none;
-  top: 10%;
-  left: 87%;
-  transform: translate(-50%, -50%);
+  transform: translate(0%, 0%);
 }
 
 .card {
@@ -369,7 +365,6 @@ h2.about-h2 {
 .card .card-title {
   color: white;
   font-size: 2rem;
-  padding: 10%;
 }
 
 .front {
@@ -380,8 +375,7 @@ h2.about-h2 {
   background: var(--site-red);
   color: white;
   text-align: center;
-  padding: 5%;
-  border-radius: 7px;
+  padding: 2%;
 }
 
 .back {
@@ -393,11 +387,12 @@ h2.about-h2 {
   color: white;
   text-align: center;
   transform: rotateY(180deg);
-  border-radius: 7px;
+  padding: 2% 0 2% 0;
 }
 
-.back a {
+.back button {
   padding: 1%;
+  border-radius: 7px;
 }
 
 .flipCard {
@@ -407,6 +402,7 @@ h2.about-h2 {
 .callout img {
   width: 100%;
   max-width: 1300px;
+  padding-top: 5%;
 }
 
 .green-text {
@@ -415,10 +411,8 @@ h2.about-h2 {
 }
 
 .card .back p {
-  padding: 10%;
   color: var(--site-black);
   text-align: center;
-  font-size: 1rem;
 }
 
 /********** MIN-WIDTH 450PX MEDIA QUERY BEGINS ***************/
